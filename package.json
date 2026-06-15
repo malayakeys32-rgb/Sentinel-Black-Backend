@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "tsx index.ts",
-    "build": "tsc --noEmit"
-  },
+  "start": "unzip -o Asset-Manager.zip && tsx ./Asset-Manager/src/hello.ts",
+  "build": "tsc --noEmit"
+}
   "devDependencies": {
     "typescript": "^5.0.0",
     "@types/node": "^20.11.0",
